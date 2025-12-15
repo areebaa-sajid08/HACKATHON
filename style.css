@@ -418,3 +418,33 @@ a {
         margin: 6px;
     }
 }
+
+@media only screen and (max-width: 1200px) {
+    .headerRow {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .rightCol {
+        order: -1;
+    }
+
+    .headerImg {
+        position: static;
+        width: 486px;
+    }
+
+    .parentCol {
+        order: 2;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .navUl a {
+        text-align: center;
+    }
+
+    .asserts-img {
+        display: none;
+    }
+}
